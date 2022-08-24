@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace WarrenTech.CRUD
 {
-    internal class Repository
+    internal class PessoaRepository
     {
-        public Repository()
+        public PessoaRepository()
         {
            this.peopleList = new List<PessoaFisica>();
         }

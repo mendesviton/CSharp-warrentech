@@ -8,9 +8,9 @@ using WarrenTech.Classes;
 
 namespace WarrenTech.CRUD
 {
-    internal class RepositoryJuridica
+    internal class PessoaJuridicaRepositorio
     {
-        public RepositoryJuridica()
+        public PessoaJuridicaRepositorio()
         {
            this.peopleList = new List<PessoaJuridica>();
         }
