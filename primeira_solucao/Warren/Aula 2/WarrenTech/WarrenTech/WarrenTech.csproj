@@ -49,6 +49,7 @@
     <Compile Include="Classes\Estruturas.cs" />
     <Compile Include="Classes\Pessoa.cs" />
     <Compile Include="Classes\PessoaFisica.cs" />
+    <Compile Include="CRUD\Repository.cs" />
     <Compile Include="Enum\Enumeradores.cs" />
     <Compile Include="Enum\Numeradores 2.cs" />
     <Compile Include="Program.cs" />
