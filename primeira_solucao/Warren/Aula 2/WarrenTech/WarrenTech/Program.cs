@@ -14,7 +14,7 @@ namespace WarrenTech
         static void Main(string[] args)
         {
             TestaPessoas testerPpl = new TestaPessoas();
-            testerPpl.ExecutaJuridico();
+            testerPpl.ExecutaBarbeiro();
             
         }
     }

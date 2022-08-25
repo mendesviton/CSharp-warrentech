@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dia2.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,13 +8,14 @@ using System.Threading.Tasks;
 
 namespace Dia2.Types
 {
-    internal interface IRepository
+    internal interface IRepository<T>
     {
-        string Create(Pessoa p);
+       
+        string Create(T p);
 
-        List<Pessoa> Read();
+        List<T> Read();
 
-        string Update(Pessoa p);
+        string Update(T p);
 
         string Delete(int id);
     }

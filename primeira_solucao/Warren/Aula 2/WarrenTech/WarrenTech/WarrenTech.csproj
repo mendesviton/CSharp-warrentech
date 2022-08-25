@@ -46,7 +46,11 @@
     <Compile Include="0 - TipoValor\TipoNumerico.cs" />
     <Compile Include="0 - TipoValor\TipoNumerico2.cs" />
     <Compile Include="99 - Exercicios\000Cadastro.cs" />
-    <Compile Include="Classes\BaseRepository.cs" />
+    <Compile Include="Classes\Barbeiros.cs" />
+    <Compile Include="Classes\BaseModel.cs" />
+    <Compile Include="Classes\Produto.cs" />
+    <Compile Include="CRUD\BarberRepository.cs" />
+    <Compile Include="CRUD\BaseRepository.cs" />
     <Compile Include="Classes\Estruturas.cs" />
     <Compile Include="Classes\Pessoa.cs" />
     <Compile Include="Classes\PessoaFisica.cs" />
@@ -54,6 +58,7 @@
     <Compile Include="Classes\TestaPessoas.cs" />
     <Compile Include="CRUD\PessoaJuridicaRepository.cs" />
     <Compile Include="CRUD\PessoaRepository.cs" />
+    <Compile Include="CRUD\ProdutoRepository.cs" />
     <Compile Include="Enum\Enumeradores.cs" />
     <Compile Include="Enum\Numeradores 2.cs" />
     <Compile Include="Program.cs" />
@@ -61,7 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <Compile Include="Classes\IRepository.cs" />
+    <Compile Include="CRUD\IRepository.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

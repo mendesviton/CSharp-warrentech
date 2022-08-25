@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WarrenTech
+namespace WarrenTech.Classes
 {
-    internal class BaseRepository
+    internal class BaseModel
     {
+        public int id { get; set; }
     }
 }

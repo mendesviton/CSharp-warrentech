@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace WarrenTech.CRUD
 {
-    internal class PessoaRepository
+    internal class PessoaRepository : BaseRepository<PessoaFisica>
     {
+        /*
         public PessoaRepository()
         {
            this.peopleList = new List<PessoaFisica>();
@@ -29,6 +30,6 @@ namespace WarrenTech.CRUD
             return "Pessoa " + pessoa.firstName + " alterada com sucesso";
         }
 
-        public string Delete(int id) { return "Pessoa id: " + id + " deletada com sucesso"; }
+        public string Delete(int id) { return "Pessoa id: " + id + " deletada com sucesso"; }*/
     }
 }
